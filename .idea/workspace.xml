@@ -20,6 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98ee331d-2324-4a53-84ce-50cea265219c" name="Default Changelist" comment="updated index">
+      <change afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +49,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -65,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606575875880</updated>
       <workItem from="1606575876956" duration="783000" />
-      <workItem from="1606577891041" duration="1796000" />
+      <workItem from="1606577891041" duration="5275000" />
     </task>
     <task id="LOCAL-00001" summary="updated index">
       <created>1606579120036</created>
@@ -81,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606579181128</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated index">
+      <created>1606579847361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606579847361</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,13 +121,17 @@
       <screen x="0" y="27" width="1920" height="999" />
     </state>
     <state x="743" y="284" width="424" height="486" key="FileChooserDialogImpl/0.27.1920.999@0.27.1920.999" timestamp="1606577751529" />
-    <state x="449" y="161" width="1022" height="732" key="SettingsEditor" timestamp="1606577862377">
+    <state x="755" y="448" width="399" height="159" key="NewPhpFileDialog" timestamp="1606583128574">
       <screen x="0" y="27" width="1920" height="999" />
     </state>
-    <state x="449" y="161" width="1022" height="732" key="SettingsEditor/0.27.1920.999@0.27.1920.999" timestamp="1606577862377" />
-    <state x="555" y="244" width="800" height="567" key="Vcs.Push.Dialog.v2" timestamp="1606579182628">
+    <state x="755" y="448" width="399" height="159" key="NewPhpFileDialog/0.27.1920.999@0.27.1920.999" timestamp="1606583128574" />
+    <state x="449" y="161" width="1022" height="732" key="SettingsEditor" timestamp="1606582054433">
       <screen x="0" y="27" width="1920" height="999" />
     </state>
-    <state x="555" y="244" width="800" height="567" key="Vcs.Push.Dialog.v2/0.27.1920.999@0.27.1920.999" timestamp="1606579182628" />
+    <state x="449" y="161" width="1022" height="732" key="SettingsEditor/0.27.1920.999@0.27.1920.999" timestamp="1606582054433" />
+    <state x="555" y="244" width="800" height="567" key="Vcs.Push.Dialog.v2" timestamp="1606579848990">
+      <screen x="0" y="27" width="1920" height="999" />
+    </state>
+    <state x="555" y="244" width="800" height="567" key="Vcs.Push.Dialog.v2/0.27.1920.999@0.27.1920.999" timestamp="1606579848990" />
   </component>
 </project>
