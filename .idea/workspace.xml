@@ -19,13 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98ee331d-2324-4a53-84ce-50cea265219c" name="Default Changelist" comment="updated index">
-      <change afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views/about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="98ee331d-2324-4a53-84ce-50cea265219c" name="Default Changelist" comment="session 04">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606575875880</updated>
       <workItem from="1606575876956" duration="783000" />
-      <workItem from="1606577891041" duration="5275000" />
+      <workItem from="1606577891041" duration="6045000" />
     </task>
     <task id="LOCAL-00001" summary="updated index">
       <created>1606579120036</created>
@@ -94,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606579847361</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="session 04">
+      <created>1606584456887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606584456887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,9 +116,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated index" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated index" />
+    <MESSAGE value="session 04" />
+    <option name="LAST_COMMIT_MESSAGE" value="session 04" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="662" y="318" width="586" height="418" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606585194276">
+      <screen x="0" y="27" width="1920" height="999" />
+    </state>
+    <state x="662" y="318" width="586" height="418" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.999@0.27.1920.999" timestamp="1606585194276" />
     <state x="743" y="284" width="424" height="486" key="FileChooserDialogImpl" timestamp="1606577751529">
       <screen x="0" y="27" width="1920" height="999" />
     </state>
@@ -129,9 +136,9 @@
       <screen x="0" y="27" width="1920" height="999" />
     </state>
     <state x="449" y="161" width="1022" height="732" key="SettingsEditor/0.27.1920.999@0.27.1920.999" timestamp="1606582054433" />
-    <state x="555" y="244" width="800" height="567" key="Vcs.Push.Dialog.v2" timestamp="1606579848990">
+    <state x="555" y="244" width="800" height="567" key="Vcs.Push.Dialog.v2" timestamp="1606584458209">
       <screen x="0" y="27" width="1920" height="999" />
     </state>
-    <state x="555" y="244" width="800" height="567" key="Vcs.Push.Dialog.v2/0.27.1920.999@0.27.1920.999" timestamp="1606579848990" />
+    <state x="555" y="244" width="800" height="567" key="Vcs.Push.Dialog.v2/0.27.1920.999@0.27.1920.999" timestamp="1606584458209" />
   </component>
 </project>
