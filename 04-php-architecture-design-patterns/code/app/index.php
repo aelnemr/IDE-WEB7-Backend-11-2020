@@ -4,7 +4,7 @@
 //if (!empty($_GET['p'])) {
 //    $p = $_GET['p'];
 //}
-
+include 'libs/functions.php';
 $p = empty($_GET['p'])? 'home' : $_GET['p'];
 $page = "views/$p.php";
 
