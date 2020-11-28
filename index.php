@@ -13,7 +13,7 @@
     <h3 class="mt-5">Session:</h3>
     <ul class="list-group list-group-flush mt-3">
         <?php
-        foreach (array_diff(scandir(__DIR__), ['.', '..', 'README.md', 'index.php', '.git', '.idea', 'indexcode.txt']) as $i => $dir):
+        foreach (array_diff(scandir(__DIR__), ['.', '..', 'README.md', '.gitignore', 'index.php', '.git', '.idea', 'indexcode.txt']) as $i => $dir):
             if (!file_exists("{$dir}/code/index.php")) :
                 copy('indexcode.txt', "{$dir}/code/index.php");
             endif;
