@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98ee331d-2324-4a53-84ce-50cea265219c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-intro-to-backend/code/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexcode.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    <list default="true" id="98ee331d-2324-4a53-84ce-50cea265219c" name="Default Changelist" comment="updated index">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +65,23 @@
       <option name="presentableId" value="Default" />
       <updated>1606575875880</updated>
       <workItem from="1606575876956" duration="783000" />
-      <workItem from="1606577891041" duration="1066000" />
+      <workItem from="1606577891041" duration="1796000" />
     </task>
+    <task id="LOCAL-00001" summary="updated index">
+      <created>1606579120036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606579120036</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated index">
+      <created>1606579181128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606579181128</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +99,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated index" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated index" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="743" y="284" width="424" height="486" key="FileChooserDialogImpl" timestamp="1606577751529">
       <screen x="0" y="27" width="1920" height="999" />
@@ -95,5 +112,9 @@
       <screen x="0" y="27" width="1920" height="999" />
     </state>
     <state x="449" y="161" width="1022" height="732" key="SettingsEditor/0.27.1920.999@0.27.1920.999" timestamp="1606577862377" />
+    <state x="555" y="244" width="800" height="567" key="Vcs.Push.Dialog.v2" timestamp="1606579182628">
+      <screen x="0" y="27" width="1920" height="999" />
+    </state>
+    <state x="555" y="244" width="800" height="567" key="Vcs.Push.Dialog.v2/0.27.1920.999@0.27.1920.999" timestamp="1606579182628" />
   </component>
 </project>

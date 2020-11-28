@@ -16,7 +16,7 @@
         foreach (array_diff(scandir(__DIR__), ['.', '..', 'README.md', 'index.php', '.git', '.idea']) as $i => $dir):
             ?>
             <li class="list-group-item">
-                <a href="<?= "{$dir}" ?>"><?= ucwords(str_replace(['-', 'php'], [' ', 'PHP'], $dir), ' ') ?></a>
+                <a href="<?= "$_SERVER[REQUEST_URI]{$dir}" ?>"><?= ucwords(str_replace(['-', 'php'], [' ', 'PHP'], $dir), ' ') ?></a>
             </li>
         <?php
         endforeach
