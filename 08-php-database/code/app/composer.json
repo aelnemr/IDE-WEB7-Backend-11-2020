@@ -1,0 +1,23 @@
+{
+    "name": "root/app",
+    "description": "php connect database",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ahmed El-Nemr",
+            "email": "pro.ahmedelnemr@gmail.com"
+        }
+    ],
+    "require": {
+        "duncan3dc/serial": "^0.4.0|^1.0",
+        "ext-curl": "*",
+        "ext-date": "*",
+        "ext-exif": "*",
+        "ext-session": "*",
+        "php": "^5.6|^7.0",
+        "vlucas/phpdotenv": "^5.2"
+    },
+    "autoload": {
+        "classmap": ["models"]
+    }
+}

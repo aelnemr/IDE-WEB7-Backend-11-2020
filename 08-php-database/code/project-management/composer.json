@@ -1,0 +1,17 @@
+{
+    "name": "elnemr/project-manager",
+    "description": "project management",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ahmed El-Nemr",
+            "email": "pro.ahmedelnemr@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.2"
+    },
+    "autoload": {
+        "classmap": ["models", "config"]
+    }
+}

@@ -9,17 +9,14 @@
 </head>
 <body>
 <div class="container mt-5">
-    <h1>Welcome to IDEAEG</h1>
+    <h1><a href="/">Back to home</a></h1>
     <h3 class="mt-5">Session:</h3>
     <ul class="list-group list-group-flush mt-3">
         <?php
-        foreach (array_diff(scandir(__DIR__), ['.', '..', 'README.md', '.gitignore', 'index.php', '.git', '.idea', 'indexcode.txt']) as $i => $dir):
-            if (!file_exists("{$dir}/code/index.php")) :
-                copy('indexcode.txt', "{$dir}/code/index.php");
-            endif;
+        foreach (array_diff(scandir(__DIR__), ['.', '..', 'README.md', 'index.php', '.git', '.idea']) as $i => $dir):
             ?>
             <li class="list-group-item">
-                <a href="<?= "/{$dir}/code" ?>"><?= ucwords(str_replace(['-', 'php'], [' ', 'PHP'], $dir), ' ') ?></a>
+                <a href="<?= "$_SERVER[REQUEST_URI]{$dir}" ?>"><?= ucwords(str_replace(['-', 'php'], [' ', 'PHP'], $dir), ' ') ?></a>
             </li>
         <?php
         endforeach
