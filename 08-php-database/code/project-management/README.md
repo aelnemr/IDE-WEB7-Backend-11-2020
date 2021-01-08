@@ -26,6 +26,7 @@ Would you like to define your dev dependencies (require-dev) interactively [yes]
 
 # How to run the project
 - clone from Github
+- `cd project-path`
 - `composer install`
 - create database
 - `cp .env.example .env`
