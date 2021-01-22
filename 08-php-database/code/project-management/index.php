@@ -1,6 +1,6 @@
 <?php
 // init
-register_shutdown_function("fatal_handler");
+//register_shutdown_function("fatal_handler");
 error_reporting(-1);
 ini_set('display_errors', 1);
 

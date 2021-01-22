@@ -20,11 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98ee331d-2324-4a53-84ce-50cea265219c" name="Default Changelist" comment="session 04">
-      <change afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views/calculator1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views/calculator2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-php-database/code/project-management/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-php-database-oop/code/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-php-database-oop/code/project-management/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-php-database-oop/code/project-management/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-php-database-oop/code/project-management/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-php-database-oop/code/project-management/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-php-database-oop/code/project-management/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-php-database-oop/code/project-management/config/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-php-database-oop/code/project-management/db/pm.sql.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-php-database-oop/code/project-management/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-php-database-oop/code/project-management/models/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-php-database-oop/code/project-management/models/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-php-database-oop/code/project-management/models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/libs/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views/calculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views/calculator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-php-database/code/project-management/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/08-php-database/code/project-management/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +61,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/09-php-database-oop/code/project-management" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/04-php-architecture-design-patterns/code/app/views" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="C:\Users\El-Nemr\work\IDE-WEB7-Backend-11-2020" />
+      <recent name="C:\Users\El-Nemr\work\IDE-WEB7-Backend-11-2020\08-php-database\code\project-management" />
+      <recent name="C:\Users\El-Nemr\work\IDE-WEB7-Backend-11-2020\08-php-database\code\project-management\models" />
+      <recent name="C:\Users\El-Nemr\work\IDE-WEB7-Backend-11-2020\08-php-database\code" />
+      <recent name="C:\Users\El-Nemr\work\IDE-WEB7-Backend-11-2020\07-database-design" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\El-Nemr\work\IDE-WEB7-Backend-11-2020\08-php-database\code\project-management\models" />
+      <recent name="C:\Users\El-Nemr\work\IDE-WEB7-Backend-11-2020\08-php-database\code\project-management" />
+      <recent name="C:\Users\El-Nemr\work\IDE-WEB7-Backend-11-2020\08-php-database\code\app\rescource" />
       <recent name="$PROJECT_DIR$/01-intro-to-backend/code" />
     </key>
   </component>
@@ -74,6 +90,9 @@
       <updated>1606575875880</updated>
       <workItem from="1606575876956" duration="783000" />
       <workItem from="1606577891041" duration="11746000" />
+      <workItem from="1610108996229" duration="14891000" />
+      <workItem from="1610225032495" duration="18000" />
+      <workItem from="1611329961373" duration="1820000" />
     </task>
     <task id="LOCAL-00001" summary="updated index">
       <created>1606579120036</created>
@@ -117,7 +136,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606589206888</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="session 08">
+      <created>1610129223876</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610129223876</updated>
+    </task>
+    <task id="LOCAL-00008" summary="session 08">
+      <created>1610129521706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610129521706</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added database">
+      <created>1610129851284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610129851284</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,18 +176,27 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="updated index" />
     <MESSAGE value="session 04" />
-    <option name="LAST_COMMIT_MESSAGE" value="session 04" />
+    <MESSAGE value="session 08" />
+    <MESSAGE value="added database" />
+    <option name="LAST_COMMIT_MESSAGE" value="added database" />
   </component>
   <component name="WindowStateProjectService">
     <state x="662" y="318" width="586" height="418" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606585194276">
       <screen x="0" y="27" width="1920" height="999" />
     </state>
     <state x="662" y="318" width="586" height="418" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.999@0.27.1920.999" timestamp="1606585194276" />
-    <state x="743" y="284" width="424" height="486" key="FileChooserDialogImpl" timestamp="1606577751529">
-      <screen x="0" y="27" width="1920" height="999" />
+    <state x="64" y="0" key="CommitChangelistDialog2" timestamp="1610129848400">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="64" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610129848400" />
+    <state x="594" y="212" width="424" height="486" key="FileChooserDialogImpl" timestamp="1611331951374">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="594" y="212" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611331951374" />
     <state x="743" y="284" width="424" height="486" key="FileChooserDialogImpl/0.27.1920.999@0.27.1920.999" timestamp="1606577751529" />
     <state x="182" y="113" width="1536" height="831" key="MergeDialog" timestamp="1606589219406">
       <screen x="0" y="27" width="1920" height="999" />
@@ -157,17 +206,24 @@
       <screen x="0" y="27" width="1920" height="999" />
     </state>
     <state x="592" y="281" width="726" height="492" key="MultipleFileMergeDialog/0.27.1920.999@0.27.1920.999" timestamp="1606589219424" />
-    <state x="755" y="448" width="399" height="159" key="NewPhpFileDialog" timestamp="1606583128574">
-      <screen x="0" y="27" width="1920" height="999" />
+    <state x="448" y="119" key="NewPhpClassDialog" timestamp="1610126147015">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="448" y="119" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1610126147015" />
+    <state x="604" y="347" width="320" height="159" key="NewPhpFileDialog" timestamp="1610126137870">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="347" width="320" height="159" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1610126137870" />
     <state x="755" y="448" width="399" height="159" key="NewPhpFileDialog/0.27.1920.999@0.27.1920.999" timestamp="1606583128574" />
-    <state x="449" y="161" width="1022" height="732" key="SettingsEditor" timestamp="1606582054433">
-      <screen x="0" y="27" width="1920" height="999" />
+    <state x="359" y="111" width="914" height="707" key="SettingsEditor" timestamp="1610123550646">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="359" y="111" width="914" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610123550646" />
     <state x="449" y="161" width="1022" height="732" key="SettingsEditor/0.27.1920.999@0.27.1920.999" timestamp="1606582054433" />
-    <state x="555" y="244" width="800" height="567" key="Vcs.Push.Dialog.v2" timestamp="1606589208490">
-      <screen x="0" y="27" width="1920" height="999" />
+    <state x="444" y="179" width="800" height="567" key="Vcs.Push.Dialog.v2" timestamp="1610129853507">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="444" y="179" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610129853507" />
     <state x="555" y="244" width="800" height="567" key="Vcs.Push.Dialog.v2/0.27.1920.999@0.27.1920.999" timestamp="1606589208490" />
   </component>
 </project>
