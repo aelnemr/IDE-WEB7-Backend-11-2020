@@ -1,0 +1,21 @@
+{
+    "name": "elnemr/project-manager",
+    "description": "project management",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ahmed El-Nemr",
+            "email": "pro.ahmedelnemr@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "ext-pdo": "*",
+        "illuminate/database": "^8.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app"
+        }
+    }
+}
